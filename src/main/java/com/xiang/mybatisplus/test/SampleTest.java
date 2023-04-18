@@ -15,7 +15,7 @@ public class SampleTest {
     public void testSelect() {
         System.out.println(("----- selectAll method test ------"));
         List<Student> userList = userMapper.selectList(null);
-
+System.out.println(("----- selectAll method test ------"));
         userList.forEach(System.out::println);
     }*/
 
